@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+}
+
+.banner {
+    background-color: #02c3c9;
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 1000;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+h2 {
+    font-family: Tahoma;
+}
+
+h3 {
+    font-family: Verdana;
+}
+
+p {
+    font-family: "Lucida Sans";
+}
