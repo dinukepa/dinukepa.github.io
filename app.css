@@ -5,8 +5,38 @@ body {
 .banner {
     background-color: #02c3c9;
     padding: 25px;
-    height: 100%;
-    width: 100%;
+    text-align: center;
+}
+
+.banner-separator {
+    background-color: #7c18ba;
+    height: 5px;
+}
+
+.link-bar-background {
+    background-color: #7c18ba;
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    transform: translateY(-26.25px);
+}
+
+.link-bar-background::before,
+.link-bar-background::after {
+  content: "";
+  position: absolute; 
+  width: 50px; /* Adjust the width of the semicircles */
+  height: 50px; /* Adjust the height of the semicircles */
+  background-color: #7c18ba; /* Set the background color of the semicircles */
+  border-radius: 50%; /* Create a perfect circle */
+}
+
+.link-bar-background::before {
+  left: -25px;
+}
+
+.link-bar-background::after {
+  right: -25px;/
 }
 
 h1 {
