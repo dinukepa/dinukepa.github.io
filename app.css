@@ -11,6 +11,7 @@ body {
 .banner-separator {
     background-color: #7c18ba;
     height: 5px;
+    text-align: center;
 }
 
 .link-bar-background {
@@ -18,7 +19,11 @@ body {
     height: 50px;
     width: 500px;
     margin: auto;
-    transform: translateY(-26.25px);
+    transform: translateY(-23.75px);
+    line-height: 50px;
+    color: #f5f6f8;
+    font-weight: 1000;
+    font-family: Verdana, sans-serif;
 }
 
 .link-bar-background::before,
