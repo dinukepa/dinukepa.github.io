@@ -1,3 +1,8 @@
+:root {
+    --separator-height: 5px;
+    --stadium-height: 55px;
+}
+
 body {
     margin: 0px;
 }
@@ -10,38 +15,21 @@ body {
 
 .banner-separator {
     background-color: #7c18ba;
-    height: 5px;
+    height: var(--separator-height);
     text-align: center;
 }
 
-.link-bar-background {
+.middle-stadium {
     background-color: #7c18ba;
-    height: 50px;
+    height: var(--stadium-height);
     width: 500px;
     margin: auto;
-    transform: translateY(-23.75px);
+    transform: translateY(calc((var(--separator-height) + var(--stadium-height)) / -2));
     line-height: 50px;
     color: #f5f6f8;
     font-weight: 1000;
+    text-align: center;
     font-family: Verdana, sans-serif;
-}
-
-.link-bar-background::before,
-.link-bar-background::after {
-  content: "";
-  position: absolute; 
-  width: 50px; /* Adjust the width of the semicircles */
-  height: 50px; /* Adjust the height of the semicircles */
-  background-color: #7c18ba; /* Set the background color of the semicircles */
-  border-radius: 50%; /* Create a perfect circle */
-}
-
-.link-bar-background::before {
-  left: -25px;
-}
-
-.link-bar-background::after {
-  right: -25px;/
 }
 
 h1 {
