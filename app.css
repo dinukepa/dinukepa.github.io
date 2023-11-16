@@ -32,20 +32,16 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-h1 {
-    color: #ffffff;
-    font-weight: 1000;
-    font-family: "Nunito Sans", sans-serif;
-}
+.content {
+    position: relative;
+    /* background-color:rgb(221, 30, 30); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-h2 {
-    font-family: Tahoma;
-}
-
-h3 {
-    font-family: Verdana;
-}
-
-p {
-    font-family: "Lucida Sans";
+#answer-box {
+    position: relative;
+    height: 60px;
+    width: 160px;    
 }
